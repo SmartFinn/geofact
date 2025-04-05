@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.popup-coordinates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 3px;
+  user-select: all;
+}
