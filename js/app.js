@@ -318,7 +318,7 @@ const draw = new MapboxDraw({
       'paint': {
         'fill-color': ['get', 'user_customColor'],
         'fill-outline-color': ['get', 'user_customColor'],
-        'fill-opacity': 0.3
+        'fill-opacity': 0.1
       }
     },
     {
