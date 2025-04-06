@@ -117,7 +117,7 @@ const draw = new MapboxDraw({
       },
       'paint': {
         'line-color': '#3bb2d0',
-        'line-width': 3
+        'line-width': 2.5
       }
     },
     {
@@ -133,7 +133,7 @@ const draw = new MapboxDraw({
       'paint': {
         'line-color': '#fbb03b',
         'line-dasharray': [0.2, 2],
-        'line-width': 3
+        'line-width': 2.5
       }
     },
     {
@@ -149,7 +149,7 @@ const draw = new MapboxDraw({
       },
       'paint': {
         'line-color': '#3bb2d0',
-        'line-width': 3
+        'line-width': 2.5
       }
     },
     {
@@ -165,7 +165,7 @@ const draw = new MapboxDraw({
       'paint': {
         'line-color': '#fbb03b',
         'line-dasharray': [0.2, 2],
-        'line-width': 3
+        'line-width': 2.5
       }
     },
     {
@@ -267,7 +267,7 @@ const draw = new MapboxDraw({
       },
       'paint': {
         'line-color': '#404040',
-        'line-width': 2
+        'line-width': 2.5
       }
     },
     {
@@ -282,7 +282,7 @@ const draw = new MapboxDraw({
       },
       'paint': {
         'line-color': '#404040',
-        'line-width': 2
+        'line-width': 2.5
       }
     },
     {
@@ -306,7 +306,7 @@ const draw = new MapboxDraw({
       ],
       'paint': {
         'line-color': ['get', 'user_customColor'],
-        'line-width': 3
+        'line-width': 2.5
       }
     },
     {
@@ -329,7 +329,7 @@ const draw = new MapboxDraw({
       ],
       'paint': {
         'line-color': ['get', 'user_customColor'],
-        'line-width': 3
+        'line-width': 2
       }
     },
     {
