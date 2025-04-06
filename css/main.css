@@ -21,3 +21,42 @@ body {
   border-radius: 3px;
   user-select: all;
 }
+
+.mini-calculation-box {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px 15px;
+  border-radius: 5px;
+  min-width: 150px;
+  max-width: 200px;
+  text-align: center;
+  z-index: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: none; /* Hidden by default, will be shown when there's a measurement */
+}
+
+.close-calculation-box-button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  background-color: #ff5252;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.close-calculation-box-button:hover {
+  background-color: #ff1a1a;
+}
