@@ -17,10 +17,10 @@ const map = new maplibregl.Map({
       carto_labels: {
         type: 'raster',
         tiles: [
-          'https://a.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png',
-          'https://b.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png',
-          'https://c.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png',
-          'https://d.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png'
+          'https://a.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png?key=cb1_3zjl_1_36226558654fd6c9b09d764e',
+          'https://b.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png?key=cb1_3zjl_1_36226558654fd6c9b09d764e',
+          'https://c.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png?key=cb1_3zjl_1_36226558654fd6c9b09d764e',
+          'https://d.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png?key=cb1_3zjl_1_36226558654fd6c9b09d764e'
         ],
         tileSize: 256,
         attribution: '&copy; <a href="https://carto.com/about-carto/">CARTO</a>',
